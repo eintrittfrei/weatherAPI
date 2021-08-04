@@ -40,7 +40,7 @@ const History = () => {
   useEffect(() => {
     const getData = async () => {
       try {
-        const { data } = await axios.get(`http://api.weatherapi.com/v1/history.json?key=bc3268a2d36f4676922230553211606&q=${formSubmit.location}&dt=${formSubmit.date}`)
+        const { data } = await axios.get(`https://api.weatherapi.com/v1/history.json?key=bc3268a2d36f4676922230553211606&q=${formSubmit.location}&dt=${formSubmit.date}`)
         setWeather(data)
       } catch (err) {
         errorHandler(err)

@@ -38,7 +38,7 @@ const Forecast = () => {
   useEffect(() => {
     const getData = async () => {
       try {
-        const { data } = await axios.get(`http://api.weatherapi.com/v1/forecast.json?key=bc3268a2d36f4676922230553211606&q=${formSubmit.location}&days=${formSubmit.number}&aqi=yes&alerts=no`)
+        const { data } = await axios.get(`https://api.weatherapi.com/v1/forecast.json?key=bc3268a2d36f4676922230553211606&q=${formSubmit.location}&days=${formSubmit.number}&aqi=yes&alerts=no`)
         setWeather(data)
         setForecasts(data.forecast.forecastday)
       } catch (err) {
