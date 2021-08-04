@@ -1,3 +1,36 @@
+General Assembly Project 2: Weather App
+---
+
+Project Members:
+---
+Ole Nascimento
+Emilie 
+
+Timeframe
+---
+
+48 hours
+
+Project Brief:
+---
+Technologies Used
+Space Invaders
+
+Deployed version LINK
+---
+Code Installation
+---
+Planning
+---
+Process/ Approach
+By Days etc. Longest Bit
+
+Challenges
+Wins
+Key Learning
+Future Improvements
+
+
 # ![](https://ga-dash.s3.amazonaws.com/production/assets/logo-9f88ae6c9c3871690e33280fcf557f33.png) GA London React Template
 
 ## Using NPM
